@@ -1,0 +1,16 @@
+{
+  "newProject": true,
+  "name": "zalo-miniapp",
+  "framework": "vue",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": false,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "includeTailwind": false,
+  "stateManagement": "store"
+}

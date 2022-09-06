@@ -1,0 +1,25 @@
+{
+  "name": "zalo-miniapp",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "check": "vue-tsc --noEmit",
+    "login": "zmp login",
+    "dev": "zmp start",
+    "build": "zmp build",
+    "deploy": "zmp deploy"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5",
+    "zmp-sdk": "^2.22.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-externals": "^0.5.1",
+    "vue-tsc": "^0.40.4",
+    "zalo-js-bridge": "^1.16.3"
+  }
+}
