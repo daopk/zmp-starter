@@ -13,6 +13,15 @@ const ready = ref(false)
 api.login({
   success(res) {
     ready.value = true
+
+    setTimeout(() => {
+      api.setNavigationBarTitle({
+        title: 'zaaa',
+      })
+    }, 1000)
+  },
+  fail: (res) => {
+    console.log('loidangnhap', res)
   },
 })
 </script>
