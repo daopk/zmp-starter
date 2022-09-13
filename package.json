@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "pinia": "^2.0.22",
+    "vant": "^3.6.2",
     "vue": "^3.2.39",
     "vue-router": "^4.1.5",
     "zmp-sdk": "^2.22.3"
@@ -18,9 +19,24 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
     "typescript": "^4.8.3",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.7",
     "vite": "^3.1.0",
     "vite-plugin-externals": "^0.5.1",
     "vue-tsc": "^0.40.13",
-    "zalo-js-bridge": "^1.16.3"
+    "zalo-js-bridge": "^1.16.3",
+    "zmp-cli": "^3.10.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "^3.1.0"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "rollup",
+        "webpack",
+        "@babel/core"
+      ]
+    }
   }
 }
