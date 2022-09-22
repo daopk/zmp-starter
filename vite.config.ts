@@ -5,6 +5,7 @@ import components from 'unplugin-vue-components/vite'
 import { VantResolver } from 'unplugin-vue-components/resolvers'
 import { defineConfig } from 'vite'
 import { viteExternalsPlugin } from 'vite-plugin-externals'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 export default defineConfig({
   resolve: {
@@ -31,5 +32,7 @@ export default defineConfig({
         disableInServe: true,
       }
     ),
+
+    visualizer(),
   ],
 })
