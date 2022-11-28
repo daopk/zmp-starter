@@ -11,3 +11,5 @@ declare module 'zalo-js-bridge' {
   import App from 'zalo-js-bridge/build/types/index'
   export default App
 }
+
+declare module '@vant/touch-emulator' {}

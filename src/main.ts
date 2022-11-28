@@ -11,3 +11,7 @@ app.use(pinia)
 app.use(router)
 app.use(vant)
 app.mount('#app')
+
+if (import.meta.env.DEV) {
+  import('@vant/touch-emulator')
+}
